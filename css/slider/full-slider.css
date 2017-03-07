@@ -52,8 +52,7 @@ video{
     height: 55vh;
     min-height: 55vh;
     background-color: #fff;
-    margin-top: -3px;
-    padding-top: 3px;
-    border-top: 3px solid #fff;
+    margin-top: -10px;
+    padding-top: 10px;
   }
 }
