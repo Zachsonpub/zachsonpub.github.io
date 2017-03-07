@@ -51,7 +51,5 @@ video{
   video {
     height: 55vh;
     min-height: 55vh;
-    background-color: #fff;
-    box-shadow: none;
   }
 }

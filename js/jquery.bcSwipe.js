@@ -36,10 +36,10 @@
           if (Math.abs(difference) >= config.threshold) {
             cancelTouch();
             if (difference > 0) {
-              $(this).carousel('next');
+              $(this)#myCarousel('next');
             }
             else {
-              $(this).carousel('prev');
+              $(this)#myCarousel('prev');
             }
           }
         }
