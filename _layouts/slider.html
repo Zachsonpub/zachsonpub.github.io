@@ -40,7 +40,7 @@ layout: default
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('{{ page.image01 }}');">
                   {% if page.show_video %}
-                  <video loop muted autoplay src="{{ page.video }}" autoplay poster="{{ page.poster }}"></video>
+                  <video loop muted autoplay src="{{ page.video }}" playsinline autoplay poster="{{ page.poster }}"></video>
                   {% endif %}
                 </div>
 
