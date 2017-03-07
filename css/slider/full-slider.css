@@ -51,5 +51,8 @@ video{
   video {
     height: 55vh;
     min-height: 55vh;
+    background-color: #fff;
+    margin-top: -3px;
+    padding-top: 3px;
   }
 }
