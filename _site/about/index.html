@@ -27,7 +27,7 @@
       <div class="sidebar" id="sidebar">
         <div class="header">
           <h1 class="title"><a href="/"><img id="logo" src="/images/Logo-Z-01.png"></a></h1>
-          <span class="tagline">A Portfolio</span>
+          <span class="tagline">Zachary Chilcoté</span>
         </div>
         <div class="nav">
           <ul class="nav-list">
@@ -61,7 +61,36 @@
         <img src="/images/sidebar-button.png">
       </div>
 
-        <h1>about</h1>
+        <html>
+<body>
+<div class="project-wrapper">
+<div class="about-me-image">
+<img src="/images/about-me.png" alt="Zachary Chilcote standing in front of painting at SAM.">
+</div>
+<div class="project">
+<h1 class="about-title">Hi, I'm Zach.</h1>
+<p class="project-body">I do a lot of cool things. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining </p>
+</div>
+<form id="form" class="topBefore" method="POST">
+
+	<input id="name" type="text" name="name" placeholder="NAME">
+  <input id="email" type="text" name="_replyto" placeholder="E-MAIL">
+	<textarea id="message" name="message" type="text" placeholder="MESSAGE"></textarea>
+  <input type="text" name="_gotcha" style="display:none" />
+  <input type="hidden" name="_next" value="/about.html" />
+  <input id="submit" type="submit" value="SUBMIT">
+
+</form>
+<script>
+    var contactform =  document.getElementById('form');
+    contactform.setAttribute('action', '//formspree.io/' + 'zachsonpub' + '@' + 'gmail' + '.' + 'com');
+</script>
+
+</div>
+
+</body>
+</html>
+
 
 
     </div>
