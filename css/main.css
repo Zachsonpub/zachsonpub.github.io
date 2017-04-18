@@ -185,7 +185,9 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 
 #form {
   position: relative;
-  width: 100%;
+  width: 96%;
+  max-width: 550px;
+  clear: both;
   margin: 0 auto 2em auto;
   text-align: center;
 }
@@ -240,9 +242,7 @@ textarea:hover {
 }
 
 #submit {
-  width: 93.45%;
-  height: 4em;
-  padding: 0;
+  width: 85%;
   margin: -4px 0px 0px 0px;
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
@@ -251,6 +251,7 @@ textarea:hover {
   cursor: pointer;
   border: solid 1px #b3aca7;
   border-top: none;
+  box-sizing: content-box;
 }
 
 #submit:hover {
@@ -476,11 +477,11 @@ textarea:hover {
 .project {
   display: block;
   position: relative;
-  margin: 3.5% 3% 2% 3%;
+  margin: 3.5% 10% 2% 10%;
   word-wrap: break-word;
-  float: left;
-  width: 94%;
-  line-height: 1.4em;
+  float: none;
+  width: auto;
+  text-align: center;
 }
 
 .project-title {
@@ -489,6 +490,6 @@ textarea:hover {
 
 .project-body {
   font-size: 1.3em;
-  margin-bottom: 1.45em;
-  text-align: start;
+  margin: 0 auto 1.45em auto;
+  max-width: 1080px;
 }
