@@ -223,6 +223,9 @@ textarea {
   height: 6em;
   padding: 1.3em 4% 1.3em 4%;
   margin-top: -1px;
+  -webkit-appearance: none;
+  -webkit-border-radius:0;
+  border-radius:0;
   background: transparent;
   outline: none;
   color: #4a4a4a;
