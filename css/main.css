@@ -295,15 +295,55 @@ textarea:hover {
 }
 
 .footer {
+  width: 100%;
+  position: relative;
+  display: block;
+  margin: 0 auto;
   font-size: 0.95em;
   border-top: 1px solid #e7e7e7;
   padding-top: 1.25em;
   padding-bottom: 1.5em;
   overflow: hidden;
-  float: center;
   text-align: center;
 }
 
+.footer-link {
+  display: inline-block;
+  width: 19%;
+  margin: 0 6% .7em 6%;
+  padding: 0%;
+  min-width: 20px;
+  position:relative;
+  background-size: contain;
+	text-indent: -99999px;
+}
+
+#github-link {
+  background: url('/images/icons/Asset 1.png') center no-repeat;
+  background-size: contain;
+}
+#github-link:hover {
+  background: url('/images/icons/Asset 2.png') center no-repeat;
+  background-size: contain;
+}
+
+#behance-link {
+  background: url('/images/icons/Asset 5.png') center no-repeat;
+  background-size: contain;
+}
+#behance-link:hover {
+  background: url('/images/icons/Asset 6.png') center no-repeat;
+  background-size: contain;
+}
+
+#dribbble-link {
+  background: url('/images/icons/Asset 7.png') center no-repeat;
+  background-size: contain;
+}
+#dribbble-link:hover {
+  background: url('/images/icons/Asset 8.png') center no-repeat;
+  background-size: contain;
+}
 /*****************************************************************************/
 /*
 /* nav
