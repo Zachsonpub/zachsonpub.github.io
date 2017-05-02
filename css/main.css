@@ -17,7 +17,7 @@ html, body {
 
 body {
   color: #4a4a4a;
-  background-color: #fafbfc;
+  background-color: #ffffff;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 0.85em;
@@ -26,7 +26,7 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Bitter', serif;
+  font-family: 'Shrikhand', serif;
   letter-spacing: .022em;
 }
 
@@ -101,6 +101,8 @@ a:hover {
   margin-bottom: .6em;
   line-height: 1em;
   text-align: center;
+  font-size: 3em;
+  letter-spacing: 0.04em;
 }
 
 /*****************************************************************************/
@@ -438,6 +440,7 @@ textarea:hover {
 
 .sidebar,
 .content {
+  background-color: #fafbfc;
   vertical-align: top;
   height: 100%;
   -webkit-overflow-scrolling: touch;
@@ -475,22 +478,28 @@ textarea:hover {
 }
 
 #sidebar-button {
-  height: intrinsic;
   cursor: pointer;
+  color: #c5c5c5;
   display: none;
-  height: 44px;
-  width: 48px;
+  height: 30px;
+  width: 36px;
+  font-size: 2.6rem;
+  margin: 13px 0 0 8px;
   position: fixed;
+  z-index: 4;
+  transition: 1s;
 }
-
-#sidebar-button img {
-  padding: 7px;
-  width: 32px;
-}
-
-#sidebar-button:active,
-#sidebar-button:hover, {
-  opacity: 0.7;
+#sidebar-button-2 {
+  cursor: pointer;
+  color: #323232;
+  display: none;
+  height: 30px;
+  width: 36px;
+  font-size: 2.6rem;
+  margin: 13px 0 0 8px;
+  position: fixed;
+  z-index: 4;
+  transition: 1s;
 }
 
 /*****************************************************************************/
@@ -520,7 +529,7 @@ textarea:hover {
 .project {
   display: block;
   position: relative;
-  margin: 4.5% 10% 2% 10%;
+  margin: 3% 10% 3% 10%;
   word-wrap: break-word;
   float: none;
   width: auto;
@@ -528,12 +537,14 @@ textarea:hover {
 }
 
 .project-title {
-  margin-bottom: .6em;
+  font-size: 3.5em;
+  margin-bottom: 2.4%;
   line-height: 1em;
 }
 
 .project-body {
   font-size: 1.3em;
   margin: 0 auto 1.45em auto;
-  max-width: 1080px;
+  max-width: 900px;
+  line-height: 1.2em;
 }

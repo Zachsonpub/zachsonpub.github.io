@@ -7,10 +7,6 @@
   }
 
 @media (max-width:1090px) {
-  /*#logo {
-    max-width: 100px;
-  }*/
-
   #title {
     font-size: 2.75em;
     line-height: 35px;
@@ -23,10 +19,6 @@
   .nav {
     font-size: 0.85em;
   }
-
-  /*.sidebar {
-    padding-left: 0em;
-  }*/
 
   .content {
     padding-right: 3em;
@@ -63,8 +55,9 @@
 
   #sidebar-button {
     display: block;
-    z-index: 2;
-    overflow: hidden;
+  }
+  #sidebar-button-2 {
+    display: block;
   }
   .about-me-image {
     margin-left: 17%;

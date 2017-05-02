@@ -51,6 +51,9 @@
 /* Overlay */
 
 	.caption-style-4 .caption{
+		display: flex;
+    flex-direction: column;
+    justify-content: center;
 		cursor: pointer;
 		position: absolute;
 		opacity: 0;
@@ -74,15 +77,44 @@
 
 	.caption-style-4 .caption-text h1{
 		text-transform: uppercase;
-		font-size: 1.7em;
+    line-height: 0.9em;
+    letter-spacing: .07em;
+	}
+
+/* Element Queries */
+	.caption .caption-text[min-width~="430px"] h1{
+		font-size: 3.4em;
+	}
+	.caption .caption-text[max-width~="420px"] h1{
+		font-size: 3.3em;
+	}
+	.caption .caption-text[max-width~="400px"] h1{
+		font-size: 3em;
+	}
+	.caption .caption-text[max-width~="368px"] h1{
+		font-size: 2.2em;
+	}
+	.caption .caption-text[max-width~="285px"] h1{
+		font-size: 1.9em;
+	}
+	.caption .caption-text[max-width~="235px"] h1{
+		font-size: 1.8em;
+	}
+	.caption .caption-text[max-width~="200px"] h1{
+		color: rgba(255, 255, 255, 0.4);
+		font-size: 1em;
+		transition: .5s;
+	}
+
+	.caption-style-4[max-width~="313px"] li {
+		width: 100%;
 	}
 
 	.caption-style-4 .caption-text{
 		z-index: 10;
 		color: #fff;
+		margin: auto 2% auto 2%;
 		text-align: center;
-		margin-top: 33.33%;
-		letter-spacing: .12em;
 	}
 
 	p a{
@@ -90,6 +122,11 @@
 	}
 
 	/* Responsive */
+@media screen and (max-width: 1025px) {
+	.caption-style-4 li .caption{
+		opacity: 1;
+		}
+	}
 
 @media screen and (min-width: 1101px) {
 
@@ -124,7 +161,7 @@
 			  <img src="images/grid/chaps_1x.jpg" alt="">
 				<div class="caption">
 					<div class="caption-text">
-						<h1>Project 01</h1>
+						<h1>Verizon Showcase</h1>
 							<!--<p>1111</p>-->
 					</div>
 				</div>
@@ -136,7 +173,7 @@
 				<img src="images/grid/everycowboy_dribbbleready_shot.jpg" alt="">
 				<div class="caption">
 					<div class="caption-text">
-						<h1>Project 02</h1>
+						<h1>Dell S&P</h1>
 							<!--<p>1111</p>-->
 					</div>
 				</div>
@@ -145,10 +182,10 @@
 
 			<li>
 				<a href="/project_03/">
-				<img src="images/grid/ithinkican_01.jpg" alt="">
+				<img src="images/grid/kuiu_01.jpg" alt="">
 				<div class="caption">
 					<div class="caption-text">
-						<h1>AProject 03</h1>
+						<h1>KUIU</h1>
 							<!--<p>1111</p>-->
 					</div>
 				</div>
@@ -160,7 +197,7 @@
 				<img src="images/grid/m.jpg" alt="">
 				<div class="caption">
 					<div class="caption-text">
-						<h1>Project 04</h1>
+						<h1>Supply Works</h1>
 							<!--<p>1111</p>-->
 					</div>
 				</div>
@@ -172,7 +209,7 @@
 				<img src="images/grid/raspberry.jpg" alt="">
 				<div class="caption">
 					<div class="caption-text">
-						<h1>Project 05</h1>
+						<h1>Alcatel</h1>
 							<!--<p>1111</p>-->
 					</div>
 				</div>
@@ -184,7 +221,7 @@
 				<img src="images/grid/sketch_1x.jpg" alt="">
 				<div class="caption">
 					<div class="caption-text">
-						<h1>Project 06</h1>
+						<h1>Logos</h1>
 							<!--<p>1111</p>-->
 					</div>
 				</div>
@@ -196,7 +233,7 @@
 			<img src="images/grid/sketch_1x.jpg" alt="">
 			<div class="caption">
 				<div class="caption-text">
-					<h1>Project 07</h1>
+					<h1>Icons + Vector Art</h1>
 						<!--<p>1111</p>-->
 				</div>
 			</div>
@@ -204,11 +241,11 @@
 	</a>
 
 	<li>
-		<a href="/project_07/">
+		<a href="/project_08/">
 		<img src="images/grid/sketch_1x.jpg" alt="">
 		<div class="caption">
 			<div class="caption-text">
-				<h1>Project 07</h1>
+				<h1>Photography</h1>
 					<!--<p>1111</p>-->
 			</div>
 		</div>
@@ -216,11 +253,11 @@
 </a>
 
 <li>
-	<a href="/project_07/">
+	<a href="/project_09/">
 	<img src="images/grid/sketch_1x.jpg" alt="">
 	<div class="caption">
 		<div class="caption-text">
-			<h1>Project 07</h1>
+			<h1>Doodles + Poodles</h1>
 				<!--<p>1111</p>-->
 		</div>
 	</div>
@@ -228,5 +265,9 @@
 </a>
 
 		</ul>
+
+		<script src="/js/ResizeSensor.js"></script>
+		<script src="/js/ElementQueries.js"></script>
+
 </body>
 </html>
