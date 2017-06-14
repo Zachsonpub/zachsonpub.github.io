@@ -59,12 +59,8 @@ a:hover {
   max-width: 250px;
 }
 
-.nav a {
-  color: #444;
-}
-
 .nav a:hover {
-  color: #777;
+  color: #000000;
 }
 
 .nav-list {
@@ -73,9 +69,12 @@ a:hover {
 
 .nav-list li {
   text-align: center;
-  font-weight: 900;
   font-size: 1.2em;
   line-height: 2em;
+  color: rgba(0,0,0,.5);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
 }
 
 /*****************************************************************************/
@@ -99,7 +98,7 @@ a:hover {
 
 .about-title {
   margin-bottom: .6em;
-  line-height: 1em;
+  line-height: 1.06em;
   text-align: center;
   font-size: 3em;
   letter-spacing: 0.04em;
@@ -282,10 +281,12 @@ textarea:hover {
 
 .tagline {
   width: 100%;
-  color: #787878;
-  font-weight: 600;
+  font-weight: 500;
+  letter-spacing: 0.2em;
   text-align: center;
-  margin-top: 0.5em;
+  text-transform: uppercase;
+  margin-bottom: 1.5em;
+  color: rgba(0,0,0,.5);
   display: block;
 }
 
@@ -303,7 +304,7 @@ textarea:hover {
   margin: 0 auto;
   font-size: 0.95em;
   border-top: 1px solid #e7e7e7;
-  padding-top: 1.25em;
+  padding-top: 1.5em;
   padding-bottom: 1.5em;
   overflow: hidden;
   text-align: center;
@@ -546,5 +547,5 @@ textarea:hover {
   font-size: 1.3em;
   margin: 0 auto 1.45em auto;
   max-width: 900px;
-  line-height: 1.2em;
+  line-height: 1.4em;
 }
