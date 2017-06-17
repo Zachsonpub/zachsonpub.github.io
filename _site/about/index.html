@@ -18,6 +18,9 @@
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="/css/responsive.css">
 
+      <!-- Hamburger -->
+      <link href="/css/hamburgers.css" rel="stylesheet">
+
       <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
@@ -56,8 +59,10 @@
         </div>
       </div>
 
-      <div id="sidebar-button">
-        ☰
+      <div class="hamburger hamburger--squeeze" id="sidebar-button">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+        </div>
       </div>
 
         <html>
@@ -99,11 +104,20 @@
 
     </div>
 
+<!-- menu icon color change
     <script>
       $("#sidebar-button").click(function () {
       var $this = $(this);
       $this.attr("id", $this.attr("id") == "sidebar-button" ? "sidebar-button-2" : "sidebar-button");
-      })
+    });
+    </script>   -->
+
+<!-- menu icon animation -->
+    <script>
+      var $hamburger = $(".hamburger");
+      $hamburger.on("click", function(e) {
+        $hamburger.toggleClass("is-active");
+      });
     </script>
 
   </body>

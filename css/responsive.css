@@ -54,7 +54,7 @@
   }
 
   .sidebar {
-    transition: 1s;
+    transition: .5s;
     margin-left: -100%;
     z-index: 3;
     width: 45%;
@@ -65,12 +65,6 @@
     padding-right: 2em;
   }
 
-  #sidebar-button {
-    display: block;
-  }
-  #sidebar-button-2 {
-    display: block;
-  }
   .about-me-image {
     margin-left: 17%;
     width:66%;
