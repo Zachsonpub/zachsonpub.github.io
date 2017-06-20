@@ -4,6 +4,13 @@
   }
 }
 
+@media (min-width:380px) {
+  #sidebar-button {
+    width: 15vw;
+    height: 14vw;
+  }
+}
+
 .hamburger {
   position: fixed;
   z-index: 5;
