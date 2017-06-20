@@ -321,12 +321,20 @@ textarea:hover {
 	text-indent: -99999px;
 }
 
-#github-link {
+#dribbble-link {
   background: url('/images/icons/Asset 1.png') center no-repeat;
   background-size: contain;
 }
-#github-link:hover {
+#dribbble-link:hover {
   background: url('/images/icons/Asset 2.png') center no-repeat;
+  background-size: contain;
+}
+#github-link {
+  background: url('/images/icons/Asset 3.png') center no-repeat;
+  background-size: contain;
+}
+#github-link:hover {
+  background: url('/images/icons/Asset 4.png') center no-repeat;
   background-size: contain;
 }
 
@@ -339,14 +347,6 @@ textarea:hover {
   background-size: contain;
 }
 
-#dribbble-link {
-  background: url('/images/icons/Asset 7.png') center no-repeat;
-  background-size: contain;
-}
-#dribbble-link:hover {
-  background: url('/images/icons/Asset 8.png') center no-repeat;
-  background-size: contain;
-}
 /*****************************************************************************/
 /*
 /* nav

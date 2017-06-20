@@ -1,5 +1,14 @@
+@media (min-width:640px) {
+  .hamburger {
+    display: none;
+  }
+}
+
 .hamburger {
-  display: inline-block;
+  position: fixed;
+  z-index: 5;
+  top: 2vw;
+  left: 2vw;
   transition-property: opacity, filter;
   transition-duration: 0.15s;
   transition-timing-function: linear;
@@ -42,6 +51,13 @@
 
     .hamburger-inner-2 {
       background-color: #c5c5c5;
+    }
+
+@media (max-width:480px) {
+      .hamburger {
+        top: 3vw;
+        left: 3vw;
+      }
     }
 
 
