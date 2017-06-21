@@ -60,6 +60,11 @@
     width: 45%;
   }
 
+  #copyright {
+    z-index: 3;
+    width: 45%;
+  }
+
   .content {
     z-index: 1;
     padding-right: 2em;
