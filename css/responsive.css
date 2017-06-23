@@ -55,6 +55,7 @@
 
   .sidebar {
     transition: .5s;
+    transform: translateX(-100%);
     margin-left: -100%;
     z-index: 3;
     width: 45%;
@@ -98,6 +99,7 @@
 /*****************************************************************************/
 
 .slideIn {
+  transform: translateX(0);
   margin-left: 0;
   background-color: #fff;
 }
