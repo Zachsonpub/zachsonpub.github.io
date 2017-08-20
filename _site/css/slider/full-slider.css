@@ -43,7 +43,10 @@ video{
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  height: 78vh;
+  min-height: 78vh;
+}
+.vid-white{
+  height:78vh!important;
 }
 
 @media (max-width:425px) {

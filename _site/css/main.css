@@ -187,8 +187,14 @@ a:hover {
 	}
 
 	p a{
-		color: #ecf0f1;
+    color: #4a4a4a;
+    font-weight: 600;
+    letter-spacing: .01em;
 	}
+
+  p a:hover{
+    color: #000000;
+  }
 
 	/* Responsive */
 @media screen and (max-width: 1025px) {

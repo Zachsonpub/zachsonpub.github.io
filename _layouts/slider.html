@@ -44,6 +44,9 @@ layout: default
                   {% if page.show_video %}
                   <video loop muted autoplay src="{{ page.video }}" poster="{{ page.poster }}"></video>
                   {% endif %}
+                  {% if page.show_vid-white %}
+                  <video loop muted autoplay src="{{ page.vid-white }}" poster="{{ page.poster }}" class="vid-white"></video>
+                  {% endif %}
                 </div>
 
             </div>

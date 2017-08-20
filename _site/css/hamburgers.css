@@ -62,6 +62,8 @@
       .hamburger {
         top: 3vw;
         left: 3vw;
+        width: 14vw;
+        height: 3em;
       }
     }
 
