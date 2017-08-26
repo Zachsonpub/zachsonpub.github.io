@@ -36,18 +36,30 @@ layout: default
             {% if page.show_image04 %}
             <li data-target="#myCarousel" data-slide-to="3"></li>
             {% endif %}
+            {% if page.show_image05 %}
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            {% endif %}
+            {% if page.show_image06 %}
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            {% endif %}
+            {% if page.show_image07 %}
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            {% endif %}
+            {% if page.show_image08 %}
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            {% endif %}
         </ol>
 
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
             <div class="item active">
                 <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('{{ page.image01 }}');">
+                <div class="fill" style="background-image:url('{{ page.image01 }}');" alt="{{ page.image01-alt }}">
                   {% if page.show_video %}
-                  <video loop muted autoplay src="{{ page.video }}" poster="{{ page.poster }}"></video>
+                  <video loop muted autoplay src="{{ page.video }}" poster="{{ page.poster }}" alt="{{ page.video-alt }}"></video>
                   {% endif %}
                   {% if page.show_vid-white %}
-                  <video loop muted autoplay src="{{ page.vid-white }}" poster="{{ page.poster }}" class="vid-white"></video>
+                  <video loop muted autoplay src="{{ page.vid-white }}" poster="{{ page.poster }}" alt="{{ page.vid-white-alt }}" class="vid-white"></video>
                   {% endif %}
                 </div>
 
@@ -55,23 +67,52 @@ layout: default
             {% if page.show_image02 %}
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('{{ page.image02 }}');"></div>
+                <div class="fill" style="background-image:url('{{ page.image02 }}');" alt="{{ page.image02-alt }}"></div>
             </div>
             {% endif %}
 
              {% if page.show_image03 %}
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('{{ page.image03 }}');"></div>
+                <div class="fill" style="background-image:url('{{ page.image03 }}');" alt="{{ page.image03-alt }}"></div>
             </div>
             {% endif %}
 
            {% if page.show_image04 %}
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('{{ page.image04 }}');"></div>
+                <div class="fill" style="background-image:url('{{ page.image04 }}');" alt="{{ page.image04-alt }}"></div>
             </div>
             {% endif %}
+
+            {% if page.show_image05 %}
+             <div class="item">
+                 <!-- Set the third background image using inline CSS below. -->
+                 <div class="fill" style="background-image:url('{{ page.image05 }}');" alt="{{ page.image05-alt }}"></div>
+             </div>
+             {% endif %}
+
+             {% if page.show_image06 %}
+              <div class="item">
+                  <!-- Set the third background image using inline CSS below. -->
+                  <div class="fill" style="background-image:url('{{ page.image06 }}');" alt="{{ page.image06-alt }}"></div>
+              </div>
+              {% endif %}
+
+              {% if page.show_image07 %}
+               <div class="item">
+                   <!-- Set the third background image using inline CSS below. -->
+                   <div class="fill" style="background-image:url('{{ page.image07 }}');" alt="{{ page.image07-alt }}"></div>
+               </div>
+               {% endif %}
+
+               {% if page.show_image08 %}
+                <div class="item">
+                    <!-- Set the third background image using inline CSS below. -->
+                    <div class="fill" style="background-image:url('{{ page.image08 }}');" alt="{{ page.image08-alt }}"></div>
+                </div>
+                {% endif %}
+
 
         </div>
 
